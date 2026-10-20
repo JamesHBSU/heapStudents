@@ -1,0 +1,44 @@
+class date
+-
+month 
+day
+year
++ initialize string as date string
+print date
+
+date month day year = 0
+
+address 
+- street
+-city
+-state
+-zip
+ + s c st z
+ print address
+
+ street city state zip = " "
+ initialize street = s city = c state = st zip = z
+ print address << , <<
+
+ student
+ + birth day 
+ + graduation day
+ -first name
+ -last name
+ - credit hours
+
+ first last = " "
+ credit = 0
+ last and first returns the names
+ print student name
+ print bday
+ print grad date
+ print credit hours
+ init student as string
+ string for street city state zip
+ string for dates and credits
+ create a get line for everything
+ init address for city state st zip
+ init birthdate and graduation
+ convert credit hours to an int 
+ 
