@@ -41,4 +41,28 @@ address
  init address for city state st zip
  init birthdate and graduation
  convert credit hours to an int 
+
+
+
+
+ week 2 - 
+ print student 
+ print name
+print student address
+ print birth day 
+ print grad daydisplay credit hours
+
+ print summary 
+ for student in the colelction
+ print last name and first name
+
+ search
+ set matchcount = 0
+ for student in colelction
+ if last name == search 
+ student.printStudent
+ ++ match count
+
+ if matchcount == 0
+ print a message for no 
  

@@ -1,7 +1,7 @@
 #include <sstring>
 class Address{
 	private:
-		std::string stree;
+		std::string street;
 		std::string city;
 		std::string state;
 		std::string zip;
