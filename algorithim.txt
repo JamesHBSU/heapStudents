@@ -46,23 +46,65 @@ address
 
 
  week 2 - 
- print student 
- print name
-print student address
- print birth day 
- print grad daydisplay credit hours
-
- print summary 
- for student in the colelction
- print last name and first name
-
- search
- set matchcount = 0
- for student in colelction
- if last name == search 
- student.printStudent
- ++ match count
-
- if matchcount == 0
- print a message for no 
  
+ main.cpp - 
+ function load students
+ open studens.csv
+
+ if cant open
+ print error message
+ return
+
+ while it can open
+ make a new student object for heap
+ init student using lineadd student pointer to vec
+ close whileclose file
+ close function
+
+
+ show student names function
+ for student pointer in the vector
+ print name
+
+
+
+ find student 
+ get user input for last name 
+ create a thing to set false
+
+ for student pointer in the vector
+ get students last name
+
+ if last name == user input
+ print student
+ set thing to true
+
+ if search is false
+ print error
+
+
+ delete students
+ for student in pointer in vector
+ delete student object
+ clear the vector
+
+ 
+ menu
+ display a selection menu 
+
+ get users choice
+ show their choice
+
+ main 
+ create a vector of student pointers
+ load students from csv
+
+ display menu
+ get user choice
+
+if statements for the choices and what they will do 
+repeat until choice is 0
+if 0 delete student object
+close everything
+end
+
