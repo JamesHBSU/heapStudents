@@ -47,4 +47,36 @@ void deleteStudents(std::vector<Student*>& students){
     }//end for
     students.clear();
 }//end delete students
+keepGoing = true;
+while(keepGoing == true){
+    std::cout << "Enter your choice : ";
+    std::cin >> choice;
 
+std::cout << "Welcome to Student Management System" << std::endl;
+std::cout << "1. Load Students" << std::endl;
+std::cout << "2. Show Students" << std::endl;
+std::cout << "3. Find Student" << std::endl;
+std::cout << "4. Delete Students" << std::endl;
+std::cout << "0. Exit" << std::endl;
+
+if (choice == 1){
+    loadStudents(students);
+    std::cout << "Students: " << stduents.size() <std::endl;
+}//end if choice 1
+
+else if (choice == 2){
+    showStudents(students);
+}//end if 2
+
+else if (choice == 3){
+    findStudent(students);
+}//end else 3
+
+else if (choice == 4){
+    deleteStudents(students);
+}//end else 4
+else (choice == 0){
+    std::cout << "exiting"  << std::endl;
+    keepGoing = false;
+}//end else
+}//end while
