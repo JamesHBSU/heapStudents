@@ -6,7 +6,7 @@ Student::Student(){
 	lastName = " ";
  	credidtHours = 0;
 }// end student student
-std::string Student::getLastFirst(){]return lastName + " " + firstName;
+std::string Student::getLastFirst(){return lastName + " " + firstName;
 }//end return
  void Student::printStudent(){
 	 std::cout << firstName << " " << lastName << std::endl;
@@ -17,7 +17,7 @@ std::string Student::getLastFirst(){]return lastName + " " + firstName;
 	 gradDate.printDate();
 	 std::cout << "Credit Hours: " << creditHours << std::endl;
  }//end printStudent
-  void Student::intit(std::string studentString){
+  void Student::init(std::string studentString){
 	  std::stringstream ss(studentString);
 std:string street, city, state, zip;
 std:string birth, grad, credits;

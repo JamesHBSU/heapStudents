@@ -1,0 +1,30 @@
+.h files
+address class to store the students address using zip state street city
+date class to store the students birth date, this will be used to also make the graduation date
+student class to store all of the data of the student, importing address and date aswell as holdingh their first and last name aswell as their credit hours
+
+.cpp files
+address class to give blank spaces for st city state and zip to recieve data
+initialize state st city zip as their respecitve abreviations 
+create aprint address function to print out the students address to be called later
+
+date constructor to make the date file for grad and birth date
+
+in student need to create a student constructor passing it the names and credits
+create a string to get the name of the student 
+print student function to print out everything about the student using our previous .cpp files that we have made
+create a initialize function to initialize the student object using get lines and a string stream for the student string, need to pass it st city state zip aswell as the dates
+
+main.cpp
+
+a function to load the students.csv file using an if statement incse it doesnt open
+use a while function that initializes student
+
+create a fucnction to display the students 
+
+create a function to find students, using a bool that repeats the process if the studnet being serached for isnt found
+get user input for them to be able to search by last name, use an if statement that checks user input to see if it matches the students last name then display matches
+if right set the bool to true
+if not display an error then repeat it
+
+a function tod delete students off of the heap then clear it
